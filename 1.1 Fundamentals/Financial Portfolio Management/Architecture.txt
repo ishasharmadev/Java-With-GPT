@@ -1,0 +1,18 @@
+Financial modeling is the summary of a company's expense & earning
+How can this impact in the future? 
+Usually a spreadsheet
+
+
+Methods : 
+portfolio performance (returns vs invested)
+risk
+returns.
+
+Classes : 
+Instrument
+- add an instrument
+- calculate returns
+- type
+- in price 
+- trade data
+
