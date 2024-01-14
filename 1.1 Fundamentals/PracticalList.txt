@@ -2,8 +2,13 @@ Here are expert-level real-life programming challenges focusing on Java topics s
 1. Complex Data Modeling:
 Challenge 1: Financial Portfolio Management
 Design a comprehensive financial portfolio management system using classes and instance variables. Model various financial instruments like stocks, bonds, and derivatives. Implement methods to calculate portfolio performance, risk, and returns.
+
 Challenge 2: Secure User Authentication
-Create an advanced user authentication system for a secure application. Utilize classes to represent different user roles and access levels. Implement secure instance variables to store sensitive user information. Use access specifiers to control access to user data.
+Create an advanced user authentication system for a secure application. 
+Utilize classes to represent different user roles and access levels. 
+Implement secure instance variables to store sensitive user information. 
+Use access specifiers to control access to user data.
+
 2. Abstraction and Encapsulation:
 Challenge 3: Media Library System
 Develop a media library system that encapsulates the complexities of managing multimedia content. Use abstract classes to represent media types and provide a common interface. Implement encapsulation to protect sensitive metadata.

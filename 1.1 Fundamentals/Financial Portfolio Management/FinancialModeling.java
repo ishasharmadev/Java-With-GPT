@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class FinancialModeling{
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to Financial Modeling!");
         Bond bd = new Bond("Bonds Deals");
         bd.initializeDetails();
@@ -30,7 +29,7 @@ abstract class Instrument{
 }
 
 class Bond extends Instrument{
-    float cost;
+    float cost, currentPrice;
     String date;
     Bond(String name){
         super(name);
@@ -53,8 +52,9 @@ class Bond extends Instrument{
     void calculateReturns(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter current price of bond : ");
-        float currentPrice = sc.nextFloat();
+        currentPrice = sc.nextFloat();
         float returns = ((currentPrice - cost) / cost) * 100;
         System.out.println(returns);
+        sc.close();
     }
 }
